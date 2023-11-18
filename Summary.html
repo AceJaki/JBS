@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>Họ và tên:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Số điện thoại:</td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td>Địa chỉ:</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>Giới tính:</td>
+                <td>Nam<input type="checkbox" ></td>
+                <td>Nữ<input type="checkbox" ></td>
+            </tr>
+            
+        </table>
+        <table>
+        <tr>
+            <td>
+            <form action="/action_page.php">
+                <label for="city">Chọn tỉnh, thành phố:</label>
+            </form>
+            <td>
+                <select name="City" id="city">
+                  <option value="HCM">Hồ Chí Minh</option>
+                  <option value="HN">Hà Nội</option>
+                  <option value="HP">Hải Phòng</option>
+                  <option value="DL">Đà Lạt</option>
+                </select>
+            </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <form action="/action_page.php">
+                <label for="city">Chọn quận, huyện:</label>
+            </td>
+            <td>
+                <select name="City" id="city">
+                  <option value="q1">Quận 1</option>
+                  <option value="q2">Quận 2</option>
+                  <option value="q3">Quận 3</option>
+                  <option value="q4">Quận 4</option>
+                </select>
+            </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <form action="/action_page.php">
+                <label for="city">Chọn phường, xã:</label>
+            </td>
+            <td>
+                <select name="City" id="city">
+                  <option value="q1">Phường 1</option>
+                  <option value="q2">Phường 2</option>
+                  <option value="q3">Phường 3</option>
+                  <option value="q4">Phường 4</option>
+                </select>
+            </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Đường:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td>Tổng tiền:</td>
+            <td><input type="number"></td>
+        </tr>
+    </table>
+        <input type="submit" value="Đặt hàng">
+    </div>
+</body>
+</html>
